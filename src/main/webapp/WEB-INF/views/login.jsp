@@ -31,7 +31,6 @@
 	<script>
         eval('alert("Your query string was ' + unescape(document.location.search) + '");');
     </script>
-
 	<div class="container">
 
 		<div class="header clearfix">
