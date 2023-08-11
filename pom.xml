@@ -16,7 +16,6 @@
 	</properties>
 
 	<!-- Dependencies begin here -->
-<!--	
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -36,7 +35,6 @@
 			<version>2.3.0</version>
 		</dependency>
 		<dependency>
--->
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-core</artifactId>
 			<version>2.3.0</version>
