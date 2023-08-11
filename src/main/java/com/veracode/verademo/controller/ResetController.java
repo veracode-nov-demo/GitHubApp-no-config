@@ -90,7 +90,7 @@ public class ResetController {
 
 		Random rand = new Random();
 
-		// Drop existing tables and recreate from schema file sdfsdfgdf
+		// Drop existing tables and recreate from schema file
 		recreateDatabaseSchema();
 
 		try {
@@ -190,6 +190,7 @@ public class ResetController {
 					long vary = rand.nextInt(30 * 24 * 3600);
 
 					logger.info("Adding a comment from " + username + " on blab ID " + String.valueOf(i));
+					logger.info("Adding another comment from " + username + " on blab ID " + String.valueOf(i));
 					commentsStatement.setInt(1, i);
 					commentsStatement.setString(2, username);
 					commentsStatement.setString(3, comment);
